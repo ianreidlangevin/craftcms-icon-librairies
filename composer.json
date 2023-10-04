@@ -1,0 +1,47 @@
+{
+   "name": "ianreid/iconlibrairies",
+   "description": "SVG icon libraries integration with Craft CMS's native SVG function.",
+   "type": "craft-plugin",
+   "version": "1.0",
+   "keywords": [
+      "craft",
+      "cms",
+      "twig",
+      "icons",
+      "librairies",
+      "phosphor",
+      "craftcms",
+      "craft-plugin"
+   ],
+   "support": {
+      "docs": "https://github.com/ianreidlangevin/craftcms-icon-librairies",
+      "issues": "https://github.com/ianreidlangevin/craftcms-icon-librairies/issues"
+   },
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Ian Reid Langevin",
+         "homepage": "https://www.reidlangevin.com"
+      }
+   ],
+   "require": {
+      "craftcms/cms": "^3.0|^4.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "ianreid\\iconlibrairies\\": "src/"
+      }
+   },
+   "extra": {
+      "name": "Icon librairies",
+      "handle": "icon-librairies",
+      "developer": "Ian Reid Langevin",
+      "developerUrl": "https://www.reidlangevin.com",
+      "documentationUrl": "https://github.com/ianreidlangevin/craftcms-icon-librairies",
+      "changelogUrl": "https://github.com/ianreidlangevin/craftcms-icon-librairies/blob/v1/CHANGELOG.md",
+      "class": "ianreid\\iconlibrairies\\IconLibrairies"
+   },
+   "require-dev": {
+      "craftcms/rector": "dev-main"
+   }
+}
