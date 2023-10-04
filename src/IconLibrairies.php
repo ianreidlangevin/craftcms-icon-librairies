@@ -16,6 +16,7 @@ class IconLibrairies extends Plugin
       parent::init();
 
       // Alias for librairies phosphors
+      Craft::setAlias('@heroicons', __DIR__ . '/icons/heroicons/');
       Craft::setAlias('@phosphor', __DIR__ . '/icons/phosphor/');
 
    }

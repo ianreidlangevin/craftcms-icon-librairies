@@ -4,12 +4,6 @@
 
 Easily integrate various SVG icon libraries with Craft CMS's native SVG function.
 
-## Available Icon Libraries
-
-- **Phosphor**
-
-More icon libraries will be added in the future. Stay tuned for updates!
-
 ## Requirements
 
 This plugin requires Craft CMS 4.x or later
@@ -32,14 +26,22 @@ To install the plugin, follow these instructions.
 To utilize the SVGs from the provided libraries, you can simply use the Craft CMS's native SVG function:
 
 ```
-{{ svg('@phosphor/iconName.svg')|attr({ class: 'custom-class' }) }}
+{{ svg('@phosphor/shield.svg')|attr({ class: 'w-8 h-8 text-gray-500' }) }}
 ```
 
 Example: For using an icon from the phosphor icons library:
 
 ```
-{{ svg('@phosphor/shield.svg')|attr({ class: 'w-8 h-8 text-green-500' }) }}
+{{ svg('@heroicons/o-arrow-right.svg')|attr({ class: 'w-8 h-8 text-green-500' }) }}
 ```
+
+## Available Icon Libraries
+
+- **[Phosphor](https://phosphoricons.com/)**
+- **[Heroicons](https://heroicons.com/)** - When using an icon from Heroicons, prefix the icon name with:
+  - `o-` for outline icons
+  - `s-` for solid icons
+  - `m-` for mini icons
 
 ## SVG Sanitization and Namespacing
 
