@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 
 2. Use Composer to load and install the plugin:
 
-        composer require ianreid/iconlibrairies -w && php craft plugin/install iconlibrairies
+        composer require ianreid/iconlibrairies -w && php craft plugin/install icon-librairies
 
 
 ## Usage
