@@ -7,11 +7,9 @@ use craft\base\Plugin;
 
 class IconLibrairies extends Plugin
 {
+   public string $schemaVersion = '1.0.0';
 
-   // Public Methods
-   // --------------------------------------------------------------------------
-
-   public function init()
+   public function init(): void
    {
       parent::init();
 
